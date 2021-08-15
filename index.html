@@ -1,0 +1,49 @@
+<!----note to self: type in "html:5" in vs code and HTML doc skeleton will appear----->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page | HTML & CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.css">
+</head>
+<body>
+    <!---the entire log in container------>
+    <div class="login_container">
+
+        <!---the Flash username logo----->
+        <div class="row">
+            <img src="The_Flash_Avatar.png" alt="The Flash Avatar Image">
+        </div>
+        <!----login text----->
+        <h2>Login</h2>
+
+        <!----login form: username and password---->
+        <form>
+            <!----username box---->
+            <div class="user_box">
+                <input type="text" name="Username" required>
+                <label><i class="fa fa-user" aria-hidden="true"></i> Username</label>
+            </div>
+
+            <!----password box----->
+            <div class="user_box">
+                <input type="password" name="Password" required>
+                <label><i class="fa fa-unlock" aria-hidden="true"></i> Password</label>
+            </div>
+            <!-----login button----->
+            <span class="login_button"><a href="#">Login</a></span>
+        </form>
+    </div>
+    <footer>
+        <!-----script src is js script to automatically update copyright year---->
+        <!---practicing with using a JS script to automatically do it instead of manually going through every HTML file to manually replace the year---->
+        <p>Practice Copyright &copy; <script src="app.js"></script> 
+            Jennifer Martinez
+        </p>
+    </footer>
+</body>
+</html>
